@@ -14,7 +14,7 @@ Nowoczesny system zarządzania wypożyczalnią samochodów zbudowany w React i N
 **Narzędzia**: ESLint, Prettier, Git
 
 ## 💻 Instalacja
-```bash
+bash
 # 1. Sklonuj repozytorium
 git clone https://github.com/twoja_nazwa/car-rental-app.git
 cd car-rental-app
@@ -26,27 +26,3 @@ cp .env.example .env  # Edytuj zmienne w .env
 cd server && npm install && npm start
 cd ../client && npm install && npm run dev
 
-Wzorce Projektowe
-Factory: Tworzenie obiektów pojazdów
-
-Singleton: Połączenie z bazą danych
-
-Observer: System powiadomień
-
-🚀 Plany Rozwoju
-Najbliższe Cele
-Integracja z systemem płatności (Stripe/PayPal)
-
-System ocen i recenzji
-
-Panel administracyjny z dashboardem
-
-Długoterminowe
-Aplikacja mobilna (React Native)
-
-Algorytmy dynamicznego ustalania cen
-
-Integracja z systemami CRM
-
-📄 Licencja
-MIT License
