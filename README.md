@@ -1,93 +1,105 @@
-# Wypożyczalnia Samochodów 🚗
+# 🚗 Wypożyczalnia Samochodów - CarRental PRO
 
-Nowoczesny system zarządzania wypożyczalnią samochodów zbudowany w React, TypeScript i zasadach programowania obiektowego (OOP).  
+Nowoczesny system zarządzania wypożyczalnią samochodów zbudowany w React i Node.js, wykorzystujący zasady programowania obiektowego (OOP).
 
----
+## 🌟 Główne Funkcjonalności
+- **Moduł Klienta**: Rejestracja, logowanie (JWT), zarządzanie profilem
+- **Katalog Pojazdów**: Filtrowanie, szczegóły techniczne, kalendarz dostępności
+- **System Rezerwacji**: Wybór daty, potwierdzenie, anulowanie
+- **Panel Admina**: CRUD pojazdów, raporty finansowe
 
-## 🌟 Funkcjonalności
+## 🛠️ Technologie
+**Frontend**: 
+```mermaid
+graph LR
+A[React 18] --> B[TypeScript]
+A --> C[Vite]
+A --> D[React Router 6]
 
-### **Aktualne funkcje**
-1. **Moduł użytkownika**  
-   - Rejestracja/logowanie (JWT)  
-   - Zarządzanie profilem  
-   - Historia wypożyczeń  
+Backend:
+pie 
+title Stack Backendowy
+"Node.js" : 45
+"Express" : 30
+"MongoDB" : 25
 
-2. **Katalog samochodów**  
-   - Przeglądaj dostępne auta z filtrami (marka, cena)  
-   - Szczegóły techniczne pojazdów  
-   - Kalendarz dostępności w czasie rzeczywistym  
 
-3. **System rezerwacji**  
-   - Rezerwacja online z wyborem daty  
-   - Podsumowanie i potwierdzenie rezerwacji  
-   - Anulowanie rezerwacji  
+💻 Instalacja
+# 1. Sklonuj repozytorium
+git clone https://github.com/twoja_nazwa/car-rental-app.git
+cd car-rental-app
 
-4. **Panel administratora**  
-   - Zarządzanie flotą (CRUD)  
-   - Przegląd rezerwacji i użytkowników  
-   - Generowanie raportów finansowych  
+# 2. Konfiguracja środowiska
+cp .env.example .env
+# Edytuj zmienne w .env
 
----
+# 3. Uruchom serwery
+cd server && npm install && npm start
+cd ../client && npm install && npm run dev
 
-### **Planowane funkcje**  
-✅ Integracja płatności (Stripe/PayPal)  
-✅ System ocen i recenzji  
-✅ Zaawansowane raporty i statystyki  
-✅ Powiadomienia SMS/Email  
+🧩 Paradygmat Obiektowy w Projekcie
+Kluczowe Implementacje OOP
 
----
+// Abstrakcyjna klasa bazowa
+abstract class BaseModel {
+  constructor(
+    public id: string = '',
+    public createdAt: Date = new Date()
+  ) {}
+  
+  abstract validate(): boolean;
+}
 
-## 🛠️ Instalacja
+// Dziedziczenie i hermetyzacja
+class Car extends BaseModel {
+  private _isAvailable: boolean;
 
-### Wymagania wstępne:
-- Node.js (v18.x+)
-- npm (v9.x+)
-- MongoDB (lokalnie lub Atlas)
+  constructor(
+    public brand: string,
+    public pricePerDay: number
+  ) {
+    super();
+  }
 
-### Kroki:
-1. Sklonuj repozytorium:
-   *bash*
-   git clone https://github.com/twoja-nazwa/car-rental-app.git
-   cd car-rental-app
+  // Polimorfizm
+  validate(): boolean {
+    return this.pricePerDay > 0 && this._isAvailable;
+  }
+}
 
-2. Zainstaluj zależności:
+// Kompozycja
+class Reservation {
+  constructor(
+    public user: User,
+    public car: Car,
+    public dates: DateRange
+  ) {}
+}
 
-*bash*
-npm install
+Wzorce Projektowe
+Factory Method: Tworzenie obiektów pojazdów
+Singleton: Połączenie z bazą danych
+Observer: System powiadomień
 
-3. Konfiguracja środowiska:
+🚀 Plany Rozwoju
+Najbliższe Cele
 
-Utwórz plik .env w głównym folderze:
+gantt
+    title Roadmap 2024
+    dateFormat  YYYY-MM-DD
+    section Integracje
+    System Płatności :done, 2024-03-01, 30d
+    API Map :active, 2024-04-01, 45d
+    section UI/UX
+    Panel Admina :2024-05-01, 60d
+    Mobile App :2024-06-01, 90d
 
-*env*
-VITE_API_URL=http://localhost:3001
-MONGODB_URI=mongodb://localhost:27017/carrental
-JWT_SECRET=tajny_klucz
+Długoterminowe
+Integracja AI do prognozowania popytu
 
-4. Uruchom serwery:
+System dynamicznego ustalania cen
 
-*bash*
-# Frontend (Vite)
-npm run dev
+Wsparcie dla wielu języków
 
-# Backend (json-server) - w nowym terminalu
-npx json-server --watch db.json --port 3001
-
-🖥️ Technologie
-Frontend: React 18, TypeScript, Vite
-Stylowanie: CSS Modules, Bootstrap
-Routing: react-router-dom v6
-API: json-server (dev), Node.js + Express (prod)
-Baza danych: MongoDB
-Narzędzia: ESLint, Prettier
-
-🗂️ Struktura projektu
-src/
-├── components/    # Komponenty React
-├── models/        # Modele OOP (Car, User)
-├── services/      # Serwisy API
-├── core/          # Klasy bazowe
-└── App.tsx        # Główny komponent
-
-📜 Licencja
-MIT License - Szczegóły
+📄 Licencja
+MIT License
