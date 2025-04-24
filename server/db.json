@@ -1,0 +1,17 @@
+{
+    "users": [],
+    "cars": [
+      {
+        "id": "1",
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2022,
+        "pricePerDay": 150,
+        "seats": 5,
+        "engine": "1.6L Hybrid",
+        "availableDates": ["2024-01-15", "2024-01-16"],
+        "isAvailable": true
+      }
+    ],
+    "reservations": []
+  }
