@@ -35,3 +35,11 @@ Aby uruchomić projekt lokalnie:
 
    ```bash
    git clone https://github.com/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w.git
+
+2. Zainstaluj zależności
+ ```bash
+   cd client
+   npm install
+   cd ../server
+   npm install
+
