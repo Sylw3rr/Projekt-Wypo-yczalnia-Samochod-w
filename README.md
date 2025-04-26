@@ -74,7 +74,7 @@ Aby uruchomić projekt lokalnie:
    npm run dev
    ```
 ## 🗂️ Struktura projektu
-    ```bash
+   ```bash
    /client    → Frontend aplikacji
    /server    → Backend + API + Baza danych
    ```
