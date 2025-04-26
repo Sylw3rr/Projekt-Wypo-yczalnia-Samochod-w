@@ -65,9 +65,10 @@ Aby uruchomić projekt lokalnie:
    JWT_SECRET=your_secret_key
    ```
 4. Uruchom backend:
-    ```bash
-   npm run dev
+   ```bash
+   W TRAKIE TWORZENIA
    ```
+
 5. Uruchom frontend
     ```bash
    cd ../client
