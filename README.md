@@ -32,6 +32,8 @@
 - 🌟 Tryb ciemny (Dark Mode)
 - 🚀 Hosting i pełne wdrożenie na Vercel / Render
 
+---
+
 ## 🛠️ Technologie
 
 | Frontend | Backend | Baza danych | Inne |
