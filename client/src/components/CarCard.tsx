@@ -1,39 +1,21 @@
-import styles from './CarCard.module.css';
+import React from 'react';
+import { Car } from '../models/Car';
 
-type CarCardProps = {
-  brand: string;
-  model: string;
-  price: string;
-  seats: number;
-  gearbox: string;
-  engine: string;
-  image: string;
-};
+export interface CarCardProps {
+  car: Car;
+}
 
-export const CarCard = ({
-  brand,
-  model,
-  price,
-  seats,
-  gearbox,
-  engine,
-  image
-}: CarCardProps) => {
-  return (
-    <div className={styles.card}>
-      <img src={image} alt={`${brand} ${model}`} />
-      <div className={styles.details}>
-        <h3>{brand} {model}</h3>
-        <div className={styles.specs}>
-          <span>🚗 {seats} osoby</span>
-          <span>⚙️ {gearbox}</span>
-          <span>🔧 {engine}</span>
-        </div>
-        <div className={styles.priceSection}>
-          <div className={styles.price}>{price}</div>
-          <button className={styles.rentBtn}>Wynajmij</button>
-        </div>
-      </div>
+export const CarCard: React.FC<CarCardProps> = ({ car }) => (
+  <div className="card h-100">
+    <img
+      src={car.getImageUrl()}          // ← używamy metody zamiast bezpośredniego property
+      className="card-img-top"
+      alt={`${car.brand} ${car.model}`}
+    />
+    <div className="card-body">
+      <h5 className="card-title">{car.brand} {car.model}</h5>
+      <p className="card-text">{car.year} • {car.engine}</p>
+      <p className="card-text"><strong>{car.pricePerDay} PLN/dzień</strong></p>
     </div>
-  );
-};
+  </div>
+);

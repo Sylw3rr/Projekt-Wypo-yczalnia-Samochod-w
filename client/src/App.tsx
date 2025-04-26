@@ -1,22 +1,27 @@
-// App.tsx
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Header } from './components/Header';
-import { Home } from './components/Home';
-import CarDetails from './components/CarDetails/CarDetails';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import { CarGrid } from './components/CarGrid';
+import Footer from './components/Footer';
+import { Car } from './models/Car';
 
-function App() {
+// Jeżeli masz hooka lub fetch do pobierania aut, w miejsce poniższej tablicy wrzuć dane:
+const sampleCars: Car[] = [];
+
+const App: React.FC = () => {
   return (
-    <BrowserRouter>
-      <div className="app">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cars" element={<CarDetails />} />
-        </Routes>
+    <>
+      <Header />
+
+      {/* Zapobiegamy nachodzeniu fixed-top */}
+      <div style={{ marginTop: '80px' }}>
+        <HeroSection />
+        <CarGrid cars={sampleCars} />
       </div>
-    </BrowserRouter>
+
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
