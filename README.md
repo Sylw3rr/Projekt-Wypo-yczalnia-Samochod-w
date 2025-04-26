@@ -19,6 +19,19 @@
 
 ---
 
+## 🛤️ Plany rozwoju
+
+- 🔥 Wprowadzenie panelu administracyjnego do zarządzania użytkownikami i rezerwacjami
+- 📅 Integracja kalendarza dostępności samochodów
+- 🛡️ System powiadomień mailowych (rezerwacja / anulowanie)
+- 📊 Rozbudowane statystyki wynajmu (Dashboard)
+- 🌍 Wersja wielojęzyczna (PL / EN)
+- 📱 Aplikacja mobilna (React Native)
+- 🧠 Inteligentne rekomendacje samochodów (Machine Learning)
+- 💳 Integracja systemu płatności online (Stripe / PayU)
+- 🌟 Tryb ciemny (Dark Mode)
+- 🚀 Hosting i pełne wdrożenie na Vercel / Render
+
 ## 🛠️ Technologie
 
 | Frontend | Backend | Baza danych | Inne |
@@ -62,7 +75,7 @@ Aby uruchomić projekt lokalnie:
  ```bash
    /client    → Frontend aplikacji
    /server    → Backend + API + Baza danych
-
+```
 ##📝 Licencja
 Projekt udostępniony na licencji MIT.
 
