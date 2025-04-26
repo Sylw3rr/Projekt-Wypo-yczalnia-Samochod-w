@@ -35,29 +35,29 @@ Aby uruchomić projekt lokalnie:
 
    ```bash
    git clone https://github.com/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w.git
-
+```
 2. Zainstaluj zależności
  ```bash
    cd client
    npm install
    cd ../server
    npm install
-
+```
 3. Utwórz plik .env w katalogu server/ i uzupełnij go następująco:
  ```ini
    PORT=5000
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_secret_key
-
+```
 4. Uruchom backend:
  ```bash
    npm run dev
-
+```
 5. Uruchom frontend
  ```bash
    cd ../client
    npm run dev
-
+```
 ## 🗂️ Struktura projektu
  ```bash
    /client    → Frontend aplikacji
