@@ -1,83 +1,37 @@
-🚗 Wypożyczalnia Samochodów
-Profesjonalna aplikacja do zarządzania wypożyczalnią samochodów — umożliwia przeglądanie dostępnych aut, rezerwacje oraz administrację flotą pojazdów.
+# 🚗 Wypożyczalnia Samochodów
 
-📋 Funkcjonalności
-Panel Klienta:
+![GitHub repo size](https://img.shields.io/github/repo-size/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w)
+![GitHub issues](https://img.shields.io/github/issues/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w)
+![GitHub license](https://img.shields.io/github/license/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w)
 
-Przeglądanie listy samochodów
+> Nowoczesna aplikacja do zarządzania wypożyczalnią samochodów. Przeglądaj auta, rezerwuj online, zarządzaj flotą!
 
-Filtry wyszukiwania (marka, cena, dostępność)
+---
 
-Składanie rezerwacji
+## 📚 Funkcje
 
-Panel Administratora:
+- 🔎 Przeglądanie dostępnych samochodów
+- 🛒 Rezerwacja pojazdu online
+- 🛠️ Zarządzanie flotą w panelu administratora
+- 🔒 Bezpieczne logowanie i autoryzacja (JWT)
+- 📱 Responsywny interfejs (Bootstrap 5)
 
-Dodawanie, edytowanie i usuwanie samochodów
+---
 
-Zarządzanie rezerwacjami klientów
+## 🛠️ Technologie
 
-Autoryzacja i logowanie
+| Frontend | Backend | Baza danych | Inne |
+| :---: | :---: | :---: | :---: |
+| React + Vite + TypeScript | Node.js + Express | MongoDB + Mongoose | JWT, bcrypt, Bootstrap |
 
-Responsywny design (Bootstrap + własne style)
+---
 
-🛠️ Technologie
-Frontend: React + Vite + TypeScript
+## ⚙️ Instalacja lokalna
 
-Backend: Node.js + Express.js
+Aby uruchomić projekt lokalnie:
 
-Baza danych: MongoDB + Mongoose
+1. Sklonuj repozytorium:
 
-Inne: JWT Authentication, bcrypt, Bootstrap 5
-
-⚙️ Instalacja
-Sklonuj repozytorium:
-
-bash
-Kopiuj
-Edytuj
-git clone https://github.com/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w.git
-Zainstaluj zależności:
-
-bash
-Kopiuj
-Edytuj
-cd client
-npm install
-cd ../server
-npm install
-Utwórz plik .env w katalogu server/:
-
-ini
-Kopiuj
-Edytuj
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-Uruchom serwer backendu:
-
-bash
-Kopiuj
-Edytuj
-npm run dev
-Uruchom frontend:
-
-bash
-Kopiuj
-Edytuj
-cd ../client
-npm run dev
-🗺️ Struktura katalogów
-bash
-Kopiuj
-Edytuj
-client/    # Frontend React + Vite
-server/    # Backend Express + MongoDB
-📸 Podgląd
-Tutaj możesz wkleić screeny Twojej aplikacji po uruchomieniu!
-
-📄 Licencja
-Projekt stworzony do celów edukacyjnych.
-Licencja: MIT.
-
-Jeśli chcesz, mogę Ci też przygotować ładne odznaki (shields.io) do nagłówka README, żeby wyglądało jeszcze bardziej profesjonalnie. 🚀
-Chcesz? 🎨✨
+   ```bash
+   git clone https://github.com/Sylw3rr/Projekt-Wypo-yczalnia-Samochod-w.git
