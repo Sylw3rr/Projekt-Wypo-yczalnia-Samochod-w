@@ -1,37 +1,35 @@
+// client/src/models/Car.ts
 import { BaseModel } from './BaseModel';
 
-export class Car extends BaseModel {
+export class Car {
   constructor(
+    public id: string,
     public brand: string,
     public model: string,
     public year: number,
     public pricePerDay: number,
     public seats: number,
     public engine: string,
-    public imageUrl: string,               // ← NOWE
+    public imageUrl: string,
     public availableDates: string[] = [],
     public isAvailable: boolean = true
-  ) {
-    super();
-  }
+  ) {}
+}
 
-  validate(): boolean {
-    return this.pricePerDay > 0 && this.availableDates.length > 0;
-  }
+export interface ICar {
+  id: string;
+  brand: string;
+  model: string;
+  year: number; // Zamiast productionYear
+  pricePerDay: number;
+  seats: number;
+  engine: string;
+  imageUrl: string;
+  availableDates: string[];
+  isAvailable: boolean; // Zamiast status
+  fuelType: string;
+}
 
-  checkAvailability(start: string, end: string): boolean {
-    return (
-      this.isAvailable &&
-      this.availableDates.some((date) => {
-        const d = new Date(date);
-        return d >= new Date(start) && d <= new Date(end);
-      })
-    );
-  }
-
-  // Jeżeli TypeScript dalej będzie marudził na 'imageUrl' jako nieużywane wewnątrz klasy,
-  // możesz dodać prostą metodę, która je „użyje”:
-  getImageUrl(): string {
-    return this.imageUrl;
-  }
+export interface ICar extends Car {
+  // Możesz dodać dodatkowe pola specyficzne dla interfejsu
 }

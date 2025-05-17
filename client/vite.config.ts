@@ -3,9 +3,13 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  plugins: [react()],
-  assetsInclude: ['**/*.svg'], // Poprawne umiejscowienie
   server: {
-    // Tutaj inne opcje serwera
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000', // Adres twojego backendu
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, '')
+      }
+    }
   }
 })
