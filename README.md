@@ -79,9 +79,10 @@ Aby uruchomić projekt lokalnie:
    /client    → Frontend aplikacji
    /server    → Backend + API + Baza danych
    ```
+   ```
 ##📝 Licencja
 Projekt udostępniony na licencji MIT.
-
+   ```
 
 
 
