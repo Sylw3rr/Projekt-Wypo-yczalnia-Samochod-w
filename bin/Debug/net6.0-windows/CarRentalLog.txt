@@ -1,0 +1,84 @@
+24.06.2025 19:10:02 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 19:10:02 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 19:10:02 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 19:10:02 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 19:10:02 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 19:10:02 [INFO] - Załadowano listę pojazdów.
+24.06.2025 20:51:44 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 20:51:44 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 20:51:44 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 20:51:44 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 20:51:44 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 20:51:45 [INFO] - Załadowano dane pojazdów
+24.06.2025 20:51:45 [INFO] - Załadowano dane klientów
+24.06.2025 20:51:45 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 20:51:45 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:00:23 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 21:00:23 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 21:00:23 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 21:00:23 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 21:00:23 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 21:00:23 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:00:23 [INFO] - Załadowano dane klientów
+24.06.2025 21:00:23 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 21:00:23 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:01:08 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 21:01:08 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 21:01:08 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 21:01:08 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 21:01:08 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 21:01:08 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:01:08 [INFO] - Załadowano dane klientów
+24.06.2025 21:01:08 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 21:01:08 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:05:07 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 21:05:07 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 21:05:07 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 21:05:07 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 21:05:07 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 21:05:08 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:05:08 [INFO] - Załadowano dane klientów
+24.06.2025 21:05:08 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 21:05:08 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:05:38 [INFO] - Dodano pojazd: Volkswagen Lupo (2003) - KR7CW93
+24.06.2025 21:05:38 [INFO] - Dodano nowy pojazd: Volkswagen Lupo
+24.06.2025 21:05:39 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:07:01 [INFO] - Zaktualizowano pojazd: Volkswagenn Lupo (2003) - KR7CW93
+24.06.2025 21:07:01 [INFO] - Zaktualizowano pojazd: Volkswagenn Lupo
+24.06.2025 21:07:02 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:07:06 [INFO] - Zaktualizowano pojazd: Volkswagen Lupo (2003) - KR7CW93
+24.06.2025 21:07:06 [INFO] - Zaktualizowano pojazd: Volkswagen Lupo
+24.06.2025 21:07:07 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:09:26 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 21:09:26 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 21:09:26 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 21:09:26 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 21:09:26 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 21:09:27 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:09:27 [INFO] - Załadowano dane klientów
+24.06.2025 21:09:27 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 21:09:27 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:10:00 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 21:10:00 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 21:10:00 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 21:10:00 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 21:10:00 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 21:10:01 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:10:01 [INFO] - Załadowano dane klientów
+24.06.2025 21:10:01 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 21:10:01 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:10:31 [INFO] - Dodano pojazd: Toyota Corolla (2022) - WPR 12345
+24.06.2025 21:10:31 [INFO] - Dodano pojazd: Ford Mustang (2023) - GD 54321
+24.06.2025 21:10:31 [INFO] - Dodano pojazd: BMW X5 (2021) - KR 11223
+24.06.2025 21:10:31 [INFO] - Dodano klienta: Jan Kowalski
+24.06.2025 21:10:31 [INFO] - Dodano klienta: Anna Nowak
+24.06.2025 21:10:32 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:10:32 [INFO] - Załadowano dane klientów
+24.06.2025 21:10:32 [INFO] - Załadowano dane wypożyczeń
+24.06.2025 21:10:32 [INFO] - Aplikacja CarRentalSystem uruchomiona pomyślnie
+24.06.2025 21:10:47 [INFO] - Dodano pojazd: mko fg (2025) - CFFG
+24.06.2025 21:10:47 [INFO] - Dodano nowy pojazd: mko fg
+24.06.2025 21:10:48 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:11:09 [INFO] - Usunięto pojazd: mko fg (2025) - CFFG
+24.06.2025 21:11:09 [INFO] - Załadowano dane pojazdów
+24.06.2025 21:11:09 [INFO] - Usunięto pojazd: mko fg
